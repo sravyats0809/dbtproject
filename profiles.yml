@@ -1,0 +1,17 @@
+analytics:
+  dbt_project:
+  target: default
+  outputs:
+    dev:
+      type: snowflake
+      account: <wf63816.us-east-2.aws>
+      user: Sravyasekhar
+      password: Jobismydream.9
+      role: ACCOUNTADMIN
+      database: INSUREDEV
+      warehouse: DBTLEARN
+      schema: dbt_st
+      threads: 6
+      client_session_keep_alive: True
+      query_tag: dbt
+      authenticator: externalbrowser
