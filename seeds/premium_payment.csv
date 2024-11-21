@@ -1,0 +1,11 @@
+PaymentID,PolicyID,CustomerID,PaymentAmount,PaymentDate,PaymentMethod,PaymentStatus,PaymentFrequency,LateFee,PaymentProcessor,PaymentReferenceNumber,TransactionID,DiscountApplied,RefundAmount,PaymentSource
+PMT001,P001,C001,300,2023-01-01,Credit Card,Completed,Monthly,0,PayPal,REF12345,TXN001,10%,0,Online
+PMT002,P002,C002,150,2023-05-01,Debit Card,Completed,Annually,0,Stripe,REF23456,TXN002,5%,0,Online
+PMT003,P003,C003,120,2023-03-01,Check,Completed,Monthly,10,Square,REF34567,TXN003,0%,0,Offline
+PMT004,P004,C004,250,2022-07-15,Credit Card,Failed,Quarterly,15,PayPal,REF45678,TXN004,0%,0,Online
+PMT005,P005,C005,180,2022-11-01,Debit Card,Completed,Monthly,0,Stripe,REF56789,TXN005,10%,0,Online
+PMT006,P006,C006,200,2023-01-01,Credit Card,Completed,Annually,0,PayPal,REF67890,TXN006,12%,0,Online
+PMT007,P007,C007,225,2022-06-01,Check,Completed,Quarterly,5,Square,REF78901,TXN007,8%,0,Offline
+PMT008,P008,C008,350,2023-02-01,Credit Card,Completed,Monthly,0,Stripe,REF89012,TXN008,15%,0,Online
+PMT009,P009,C009,180,2021-10-15,Debit Card,Completed,Annually,0,PayPal,REF90123,TXN009,5%,0,Online
+PMT010,P010,C010,140,2022-12-01,Check,Completed,Monthly,0,Square,REF01234,TXN010,10%,0,Offline

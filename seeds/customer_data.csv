@@ -1,0 +1,11 @@
+CustomerID,CustomerName,CustomerAge,Gender,MaritalStatus,Address,City,State,PostalCode,PhoneNumber,Email,Occupation,AnnualIncome,DateOfBirth,RegistrationDate
+C001,John Doe,35,Male,Married,123 Main St,New York,NY,10001,123-456-7890,john.doe@email.com,Software Engineer,85000,1989-05-15,2020-01-15
+C002,Jane Smith,40,Female,Single,456 Oak St,Los Angeles,CA,90001,987-654-3210,jane.smith@email.com,Doctor,150000,1984-08-20,2019-07-21
+C003,Tom Brown,28,Male,Single,789 Pine St,Chicago,IL,60601,555-123-4567,tom.brown@email.com,Teacher,50000,1996-04-10,2021-05-01
+C004,Emily Davis,50,Female,Married,234 Elm St,Dallas,TX,75201,666-987-6543,emily.davis@email.com,Architect,120000,1974-12-05,2018-03-30
+C005,Michael White,45,Male,Married,345 Maple St,Miami,FL,33101,444-333-2222,michael.white@email.com,Manager,95000,1979-03-25,2022-11-10
+C006,Laura Black,30,Female,Single,567 Cedar St,San Francisco,CA,94105,333-444-5555,laura.black@email.com,Data Scientist,105000,1994-11-10,2021-12-01
+C007,James Green,38,Male,Married,678 Birch St,Seattle,WA,98101,222-555-6666,james.green@email.com,Engineer,110000,1986-02-17,2023-01-01
+C008,Susan Miller,42,Female,Single,890 Maple St,Boston,MA,02101,777-888-9999,susan.miller@email.com,Lawyer,135000,1982-07-14,2021-08-01
+C009,David Wilson,60,Male,Married,123 Oak St,Denver,CO,80201,555-987-1234,david.wilson@email.com,Retired,75000,1964-02-23,2022-04-01
+C010,Anna Taylor,34,Female,Single,234 Pine St,Austin,TX,73301,444-555-6666,anna.taylor@email.com,Marketing Manager,95000,1990-03-10,2022-02-01

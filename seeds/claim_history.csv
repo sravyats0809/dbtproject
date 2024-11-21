@@ -1,0 +1,11 @@
+ClaimID,CustomerID,PolicyID,ClaimType,ClaimAmount,ClaimDate,ClaimStatus,ClaimReason,ClaimPaidAmount,ClaimDeniedAmount,ClaimFiledBy,ClaimAdjuster,ClaimResolutionDate,ClaimResolutionStatus,ClaimInvestigation
+CLM001,C001,P001,Medical,5000,2022-03-01,Approved,Hospitalization,4000,1000,John Doe,Adjuster A,2022-04-01,Settled,No
+CLM002,C002,P002,Life,20000,2021-06-15,Approved,Natural Causes,15000,5000,Emily Rose,Adjuster B,2021-07-01,Settled,No
+CLM003,C003,P003,Auto,10000,2023-02-10,Pending,Accident,0,10000,Michael Clark,Adjuster C,2023-03-01,Under Investigation,Yes
+CLM004,C004,P004,Home,30000,2022-05-20,Denied,Fire,0,30000,Richard Black,Adjuster D,2022-06-01,Rejected,Yes
+CLM005,C005,P005,Health,15000,2022-09-05,Approved,Surgery,10000,5000,Laura White,Adjuster E,2022-10-01,Settled,No
+CLM006,C006,P006,Auto,20000,2023-04-02,Approved,Accident,18000,2000,Patricia Blue,Adjuster F,2023-04-15,Settled,No
+CLM007,C007,P007,Home,25000,2022-12-10,Pending,Water Damage,0,25000,Katherine Moore,Adjuster G,2023-01-05,Under Investigation,Yes
+CLM008,C008,P008,Medical,7000,2023-01-15,Approved,Illness,6000,1000,George Davis,Adjuster H,2023-02-01,Settled,No
+CLM009,C009,P009,Life,50000,2021-11-10,Approved,Accidental Death,40000,10000,Nancy James,Adjuster I,2021-12-01,Settled,No
+CLM010,C010,P010,Auto,12000,2022-07-25,Denied,Theft,0,12000,Linda Clark,Adjuster J,2022-08-10,Rejected,Yes

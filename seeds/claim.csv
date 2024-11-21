@@ -1,0 +1,11 @@
+ClaimID,PolicyID,CustomerID,ClaimType,ClaimAmount,ClaimDate,ClaimStatus,ClaimApprovalAmount,ClaimResolutionDate,ClaimAdjuster,ClaimReportedBy,ClaimCause,ClaimDescription,ClaimPaymentAmount,ClaimPaymentDate
+CL001,P001,C001,Medical,5000,2023-01-15,Approved,4500,2023-02-10,John Adams,Jane Doe,Accident,Hospital stay for broken leg,4500,2023-02-12
+CL002,P002,C002,Life,10000,2022-12-01,Approved,10000,2022-12-05,Emily Rose,John Smith,Natural Death,Death from heart attack,10000,2022-12-06
+CL003,P003,C003,Auto,2000,2023-03-10,Denied,0,2023-04-01,Michael Clark,Susan Green,Collision,Car accident with minor damage,0,2023-04-05
+CL004,P004,C004,Home,3000,2022-11-20,Approved,2500,2022-12-15,Richard Black,Robert Brown,Fire,Kitchen fire,2500,2022-12-20
+CL005,P005,C005,Health,1500,2023-05-12,Approved,1400,2023-06-01,Laura White,Michael Green,Medical Treatment,Surgery for knee injury,1400,2023-06-05
+CL006,P006,C006,Auto,1000,2023-06-10,Approved,950,2023-06-15,Patricia Blue,James Black,Collision,Minor collision with another vehicle,950,2023-06-20
+CL007,P007,C007,Home,5000,2022-07-01,Approved,4800,2022-07-15,Katherine Moore,Larry Young,Storm,Hail damage to roof,4800,2022-07-18
+CL008,P008,C008,Medical,7000,2023-02-15,Approved,6000,2023-03-05,George Davis,Daniel Taylor,Sickness,Hospitalization due to pneumonia,6000,2023-03-08
+CL009,P009,C009,Life,12000,2022-09-25,Denied,0,2022-10-05,Nancy James,Kevin Brown,Accidental Death,Accidental fall,0,2022-10-08
+CL010,P010,C010,Auto,4000,2023-04-05,Approved,3700,2023-04-25,Linda Clark,Patricia Green,Theft,Stolen vehicle,3700,2023-04-28
