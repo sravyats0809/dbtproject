@@ -1,0 +1,80 @@
+
+
+models:
+  - name: stg_claim
+    columns:
+      - name: claimid
+        tests:
+          - unique
+          - not_null
+      - name: policyid
+        tests:
+          - unique
+          - not_null  
+      - name: customerid
+        tests:
+          - unique
+          - not_null   
+  - name: stg_policy
+    columns:
+      - name: policyid
+        tests:
+          - unique
+          - not_null
+      - name: customerid
+        tests:
+          - unique
+          - not_null
+  - name: stg_customer_data
+    columns:        
+      - name: customerid
+        tests:
+          - unique
+          - not_null
+  - name: stg_claim_history
+    columns:
+      - name: claimid
+        tests:
+          - unique
+          - not_null
+      - name: policyid
+        tests:
+          - unique
+          - not_null  
+      - name: customerid
+        tests:
+          - unique
+          - not_null  
+  - name: stg_agent_performance
+    columns:
+      - name: claimid
+        tests:
+          - unique
+          - not_null
+      - name: policyid
+        tests:
+          - unique
+          - not_null  
+      - name: customerid
+        tests:
+          - unique
+          - not_null 
+      - name: agentid
+        tests:
+          - unique
+          - not_null
+  - name: stg_premium_payment
+    columns:
+      - name: paymentid
+        tests:
+          - unique
+          - not_null
+      - name: policyid
+        tests:
+          - unique
+          - not_null  
+      - name: customerid
+        tests:
+          - unique
+          - not_null 
+      
