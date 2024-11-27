@@ -10,4 +10,4 @@ sources:
       - name: stg_claim_history
       - name: stg_policy
       - name: stg_premium_payment
-      - name: stag_agent_performance
+      - name: stag_cust_transactions
