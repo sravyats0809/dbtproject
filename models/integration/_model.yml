@@ -1,0 +1,14 @@
+models:
+  - name: int_claims_claimhistory
+    columns:
+      - name: CLAIM_SURROGATE_KEY
+        tests:
+          - unique
+          - not_null
+  - name: int_policy_prempayment
+    columns:
+      - name: POLICY_SURROGATE_KEY
+        tests:
+          - unique
+          - not_null
+              
