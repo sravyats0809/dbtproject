@@ -9,3 +9,4 @@ CL007,P007,C007,Home,5000,2022-07-01,Approved,4800,2022-07-15,Katherine Moore,La
 CL008,P008,C008,Medical,7000,2023-02-15,Approved,6000,2023-03-05,George Davis,Daniel Taylor,Sickness,Hospitalization due to pneumonia,6000,2023-03-08
 CL009,P009,C009,Life,12000,2022-09-25,Denied,0,2022-10-05,Nancy James,Kevin Brown,Accidental Death,Accidental fall,0,2022-10-08
 CL010,P010,C010,Auto,4000,2023-04-05,Approved,3700,2023-04-25,Linda Clark,Patricia Green,Theft,Stolen vehicle,3700,2023-04-28
+CL011,P011,C011,Medical,5000,2023-04-05,Denied,3700,2023-06-21,Linda Clark,Patricia Green,Theft,Stolen vehicle,-10,2023-04-28

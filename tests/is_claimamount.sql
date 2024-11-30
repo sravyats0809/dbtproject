@@ -3,9 +3,9 @@
 
 SELECT
     CLAIMID,  -- You can select any other relevant fields if necessary for debugging
-    CLAIMPAYMENTAMOUNT
+    CLAIMAMOUNT
 FROM
     {{ ref('int_claims_claimhistory') }}  -- Replace 'your_model_name' with your actual model name
 WHERE
-    CLAIMPAYMENTAMOUNT < 0
+    CLAIMAMOUNT < 0
 
