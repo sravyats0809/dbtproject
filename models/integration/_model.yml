@@ -5,7 +5,8 @@ models:
         tests:
           - unique
           - not_null
-  - name: int_policy_prempayment
+          - is_claimpaymentamount
+  - name: int_policy_payment
     columns:
       - name: POLICY_SURROGATE_KEY
         tests:

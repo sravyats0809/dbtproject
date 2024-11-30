@@ -3,6 +3,8 @@ materialized='incremental',
 unique_key='POLICY_SURROGATE_KEY'
 ) }}
 
+
+
 WITH joined_data AS (
 SELECT
 -- Generate surrogate key
@@ -31,6 +33,7 @@ OR {{ this }}.PAYMENTDATE != pp.PAYMENTDATE
 THEN CURRENT_TIMESTAMP()
 ELSE {{ this }}.updated_at
 END AS updated_at
+
 FROM
 {{ ref('stg_policy') }} p
 FULL OUTER JOIN

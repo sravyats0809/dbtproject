@@ -17,5 +17,5 @@ SELECT
     RenewalDate,
     PaymentFrequency,
     Discount,
-    UnderwritingCompany,
+    UnderwritingCompany
     from {{ ref('raw_policy') }}

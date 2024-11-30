@@ -17,6 +17,6 @@ PaymentReferenceNumber,
 TransactionID,
 DiscountApplied,
 RefundAmount,
-PaymentSource,
+PaymentSource
 
 from {{ ref('raw_premium_payment') }}
