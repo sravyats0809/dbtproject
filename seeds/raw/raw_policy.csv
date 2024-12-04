@@ -1,17 +1,19 @@
 PolicyID,CustomerID,PolicyType,PolicyStartDate,PolicyEndDate,PolicyPremium,PolicyCoverageAmount,PolicyStatus,PolicyHolderName,BeneficiaryName,PolicyAgent,RenewalDate,PaymentFrequency,Discount,UnderwritingCompany
-P001,C001,Health,2022-01-01,2023-01-01,300,20,Active,John Doe,Jane Doe,Agent A,2023-01-01,Monthly,10%,ABC Insurances
-P002,C002,Life,2021-05-01,2026-05-01,150,20000,Active,Emily Rose,Robert Rose,Agent B,2026-05-01,Annually,5%,XYZ Life
+P001,C001,Health,2022-01-01,2023-01-01,3000,2000,Expired,John Doe,Jane Doe,Agent A,2023-01-01,Monthly,10%,ABC Insurances
+P002,C002,Auto,2021-05-01,2026-05-01,150,50000,Active,Emily Rose,Robert Rose,Agent B,2026-05-01,Annually,5%,XYZ Life
 P003,C003,Auto,2023-03-01,2024-03-01,120,10000,Active,Michael Clark,Susan Clark,Agent C,2024-03-01,Monthly,15%,DEF Auto
 P004,C004,Home,2021-07-15,2023-07-15,250,30000,Expired,Richard Black,Carla Black,Agent D,2023-07-15,Quarterly,20%,ABC Insurances
 P005,C005,Health,2022-11-01,2023-11-01,180,15000,Active,Laura White,David White,Agent E,2023-11-01,Monthly,10%,LMN Health
 P006,C006,Auto,2023-01-01,2024-01-01,200,25000,Active,Patricia Blue,James Blue,Agent F,2024-01-01,Annually,12%,DEF Auto
-P007,C007,Health,2022-06-01,2023-06-01,225,40000,Active,Katherine Moore,Oliver Moore,Agent G,2023-06-01,Quarterly,8%,GHI Home
+P007,C007,Health,2022-06-01,2023-06-01,225,5000,Expired,Katherine Moore,Oliver Moore,Agent G,2023-06-01,Quarterly,8%,GHI Home
 P008,C008,Medical,2023-02-01,2024-02-01,350,7000,Active,George Davis,Emily Davis,Agent H,2024-02-01,Monthly,15%,XYZ Life
 P009,C009,Life,2021-10-15,2026-10-15,180,50000,Active,Nancy James,Laura James,Agent I,2026-10-15,Annually,5%,ABC Insurances
 P010,C010,Auto,2022-12-01,2023-12-01,140,12000,Active,Linda Clark,Robert Clark,Agent J,2023-12-01,Monthly,10%,DEF Auto
 P011,C011,Health,2024-11-12,2025-10-14,155,1500,Expired
-P012,C012,Auto,2024-10-12
+P012,C012,Life,2024-10-12
 P015,C015,Life,2024-11-06
 P013,C013,Health,2023-01-25
 P014,C014,Medical,2021-05-13
 P016,C016,Auto,2022-02-12
+P017,C017,Life,2021-03-11
+P018,C018,Health,2022-05-12,2025-05-06,520
