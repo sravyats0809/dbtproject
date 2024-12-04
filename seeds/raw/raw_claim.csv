@@ -1,5 +1,5 @@
 ClaimID,PolicyID,CustomerID,ClaimType,ClaimAmount,ClaimDate,ClaimStatus,ClaimApprovalAmount,ClaimResolutionDate,ClaimAdjuster,ClaimReportedBy,ClaimCause,ClaimDescription,ClaimPaymentAmount,ClaimPaymentDate
-CL001,P001,C001,Medical,5000,2023-01-15,Approved,4500,2023-02-10,John Adams,Jane Doe,Accident,Hospital stay for broken leg,4500,2023-02-12
+CL001,P001,C001,Auto,500,2023-01-15,Rejected,4500,2023-02-10,John Adams,Jane Doe,Accident,Hospital stay for broken leg,4500,2023-02-12
 CL002,P002,C002,Life,10000,2022-12-01,Approved,10000,2022-12-05,Emily Rose,John Smith,Natural Death,Death from heart attack,10000,2022-12-06
 CL003,P003,C003,Auto,2000,2023-03-10,Denied,0,2023-04-01,Michael Clark,Susan Green,Collision,Car accident with minor damage,0,2023-04-05
 CL004,P004,C004,Home,3000,2022-11-20,Approved,2500,2022-12-15,Richard Black,Robert Brown,Fire,Kitchen fire,2500,2022-12-20

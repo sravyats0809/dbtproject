@@ -1,15 +1,15 @@
-{% snapshot int_policy_payment_scd %} #this 
+{% snapshot int_customerdata_scd %} 
 
 {{
     config(
         target_schema='DBT_ST', 
         target_database='INSUREDEV',
-        unique_key='POLICY_SURROGATE_KEY',
+        unique_key='CUSTOMERID',
         strategy='check',
         check_cols= 'all'
     )
 }}
 
-SELECT * FROM {{ref("int_policy_payment")}}
+SELECT * FROM {{ref("stg_customer_data")}}
 
 {% endsnapshot %}
