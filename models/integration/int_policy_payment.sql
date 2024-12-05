@@ -8,7 +8,7 @@ merge_exclude_columns='created_at'
 
 SELECT
 -- Generate surrogate key
-md5(CONCAT(p.POLICYID, p.CUSTOMERID)) AS POLICY_SURROGATE_KEY,
+{{ generate_surrogate_key('p.POLICYID', 'p.CUSTOMERID') }} AS POLICY_SURROGATE_KEY,
 p.POLICYID,
 p.CUSTOMERID,
 p.POLICYTYPE,
