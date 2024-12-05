@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: Insurance
+    database: insuredev
+    schema: dbt_st
+    tables: 
+      - name: stg_claim
+      - name: stg_customer_data
+      - name: stg_claim_history
+      - name: stg_policy
+      - name: stg_premium_payment
+      - name: stag_cust_transactions

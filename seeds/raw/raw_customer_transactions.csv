@@ -1,0 +1,13 @@
+TransactionID,CustomerID,TransactionDate,TransactionAmount,TransactionType,PaymentMethod,TransactionStatus
+T001,C001,2023-01-15,150.00,Purchase,Credit Card,Completed
+T002,C002,2023-02-18,300.00,Purchase,Debit Card,Completed
+T003,C003,2023-03-10,50.00,Purchase,Cash,Completed
+T004,C004,2023-04-05,1200.00,Purchase,Online,Completed
+T005,C005,2023-05-20,450.00,Refund,Credit Card,Completed
+T006,C006,2023-06-15,200.00,Purchase,Debit Card,Pending
+T007,C007,2023-07-25,100.00,Purchase,Credit Card,Completed
+T008,C008,2023-08-30,300.00,Purchase,Online,Completed
+T009,C009,2023-09-10,75.00,Refund,Cash,Completed
+T010,C010,2023-10-01,220.00,Purchase,Debit Card,Completed
+T011,C001,2023-11-15,500.00,Purchase,Online,Pending
+T012,C002,2023-12-01,320.00,Purchase,Credit Card,Completed
