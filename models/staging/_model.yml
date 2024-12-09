@@ -61,13 +61,9 @@ models:
         tests:
           - unique
           - not_null
-  - name: stg_premium_payment
+  - name: stg_cust_transactions
     columns:
-      - name: paymentid
-        tests:
-          - unique
-          - not_null
-      - name: policyid
+      - name: transactionid
         tests:
           - unique
           - not_null  
