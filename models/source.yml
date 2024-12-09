@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: project2
+    database: INSUREDEV
+    schema: DBT_ST
+    tables:
+      - name: Class
