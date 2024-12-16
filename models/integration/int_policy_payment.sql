@@ -5,7 +5,6 @@ merge_exclude_columns='created_at'
 ) }}
 
 
-
 SELECT
 -- Generate surrogate key
 {{ generate_surrogate_key('p.POLICYID', 'p.CUSTOMERID') }} AS POLICY_SURROGATE_KEY,
@@ -30,5 +29,4 @@ FULL OUTER JOIN
 WHERE 
     POLICY_SURROGATE_KEY NOT IN (SELECT POLICY_SURROGATE_KEY FROM {{ this }})
     OR updated_at > (SELECT MAX(updated_at) FROM {{ this }})
-
 {% endif %}
